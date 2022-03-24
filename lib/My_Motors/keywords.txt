@@ -1,0 +1,24 @@
+#######################################
+# Syntax Coloring Map For My_Motors Library
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+My_Motors	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+getRPM	KEYWORD2
+getInstRpm	KEYWORD2
+set_Ninit	KEYWORD2
+get_Dn		KEYWORD2
+
+
+
+
+
+
