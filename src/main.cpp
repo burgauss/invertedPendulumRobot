@@ -77,7 +77,7 @@ void setup() {
 
   /* Set kalman and gyro starting angle */
   while (i2cRead(0x68,0x3B, i2cData, 6));
-  X_acc = (int16_t)((i2cData[0] << 8) | i2cData[1]);
+  X_acc = (int16_t)((i2cData[0] << 8) | i2cData[1]);  //shift to the left 8 bits, 0 will be added to the right
   Y_acc = (int16_t)((i2cData[2] << 8) | i2cData[3]);
   Z_acc = (int16_t)((i2cData[4] << 8) | i2cData[5]);
 
