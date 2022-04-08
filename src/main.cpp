@@ -34,7 +34,7 @@ float r_whl = 0.059; // radius of the wheel
 float V_trans; // Translation velocity
 float rpm_limit = 0.10; // RPM below this is considered 0
 float avg_pt = 10.0;  // Number of points used for exponentially averaging the RPM signal
-short PPR = 400; // Number of pulses per revolution of the encoder (for a gearbox 1:50, this value is 400)
+short PPR = 800; // Number of pulses per revolution of the encoder (for a gearbox 1:50, this value is 400)
 float Final_Rpm_r, Final_Rpm_l; // Motor final averaged out RPM, units can be selected while calling get_RPM function
 My_Motors Rmot(&Final_Rpm_r, rpm_limit, avg_pt, PPR); // Right motor object for calculating rotational velocities from encoder data
 My_Motors Lmot(&Final_Rpm_l, rpm_limit, avg_pt, PPR); // Left motor object for calculating rotational velocities from encoder data
