@@ -22,7 +22,7 @@ My_Motors::My_Motors(float *Final_rpm, float rpm_lim, float avg_pt, short PPR)
 
 	rpm_limit = rpm_lim;	
 	
-	avg_points = avg_pt;
+	avg_points = avg_pt;	
 	
 	ppr = PPR; // Pulses per revolution for each motor encoder 
 	
