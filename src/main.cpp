@@ -9,7 +9,7 @@
 
 #define RESTRICT_PITCH // Comment out to restrict roll to ±90deg instead - please read: http://www.freescale.com/files/sensors/doc/app_note/AN3461.pdf
 
-// comment to test the git
+// //comment to test the git
 
 /* IMU1 Data */
 Kalman X_kalman; // Create the Kalman instances
